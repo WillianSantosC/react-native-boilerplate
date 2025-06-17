@@ -7,8 +7,6 @@ module.exports = defineConfig([
   eslintPluginPrettierRecommended,
   {
     ignores: ['dist/*'],
-  },
-  {
     rules: {
       'react/display-name': 'off',
     },
