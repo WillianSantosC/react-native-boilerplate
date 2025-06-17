@@ -5,7 +5,7 @@ const config: Config = {
   testEnvironment: 'node',
   clearMocks: true,
   collectCoverage: true,
-  coverageDirectory: '../coverage',
+  coverageDirectory: 'coverage',
   coverageProvider: 'v8',
   transform: {
     '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
